@@ -181,6 +181,7 @@ function App() {
 
         <div className="projects-container">
 
+          {/* Project 1 */}
           <div className="project-card">
             <div className="project-number">01</div>
 
@@ -198,12 +199,18 @@ function App() {
             </div>
 
             <div className="project-buttons">
-              <a href="#" className="project-btn">
+              <a
+                href="https://github.com/swethapatil092006"
+                className="project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 View Project
               </a>
             </div>
           </div>
 
+          {/* Project 2 */}
           <div className="project-card">
             <div className="project-number">02</div>
 
@@ -221,12 +228,18 @@ function App() {
             </div>
 
             <div className="project-buttons">
-              <a href="#" className="project-btn">
+              <a
+                href="https://github.com/swethapatil092006"
+                className="project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 View Project
               </a>
             </div>
           </div>
 
+          {/* Project 3 */}
           <div className="project-card">
             <div className="project-number">03</div>
 
@@ -244,7 +257,12 @@ function App() {
             </div>
 
             <div className="project-buttons">
-              <a href="#" className="project-btn">
+              <a
+                href="https://github.com/swethapatil092006"
+                className="project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 View Project
               </a>
             </div>
@@ -314,7 +332,7 @@ function App() {
             </p>
 
             <div className="contact-details">
-              <p>📧 Email: swethapatil@gmail.com</p>
+              <p>📧 Email: YOUR_EMAIL_HERE</p>
               <p>📍 Bangalore, India</p>
             </div>
           </div>
