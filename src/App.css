@@ -691,6 +691,11 @@ body {
 
 @media (max-width: 480px) {
   .nav-links {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+  .nav-links {
     gap: 10px;
     font-size: 12px;
   }
