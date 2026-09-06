@@ -314,7 +314,7 @@ function App() {
             </p>
 
             <div className="contact-details">
-              <p>📧 Email: your-email@example.com</p>
+              <p>📧 Email: swethapatil@gmail.com</p>
               <p>📍 Bangalore, India</p>
             </div>
           </div>
