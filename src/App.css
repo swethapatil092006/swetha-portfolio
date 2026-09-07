@@ -582,14 +582,15 @@ body {
   outline: none;
 
   font-family: inherit;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: #e879f9;
 }
-
-.contact-form button {
+.contact-form button
+ {
   padding: 15px;
 
   background: linear-gradient(90deg, #9333ea, #ec4899);
