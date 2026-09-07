@@ -349,7 +349,7 @@ function App() {
             <input
   type="email"
   name="email"
-  placeholder="Your Email"
+  placeholder="Your Email Address"
   required
 />
 
