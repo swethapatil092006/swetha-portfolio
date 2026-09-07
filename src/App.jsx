@@ -339,24 +339,26 @@ function App() {
 
           <form className="contact-form" onSubmit={handleSubmit}>
 
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-            />
+           <input
+  type="text"
+  name="name"
+  placeholder="Your Name"
+  required
+/>
 
             <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-            />
+  type="email"
+  name="email"
+  placeholder="Your Email"
+  required
+/>
 
             <textarea
-              name="message"
-              rows="5"
-              placeholder="Write your message..."
-            ></textarea>
-
+  name="message"
+  rows="5"
+  placeholder="Write your message..."
+  required
+></textarea>
             <button type="submit">
               Send Message ✨
             </button>
