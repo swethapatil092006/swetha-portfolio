@@ -36,12 +36,12 @@ function App() {
         </h2>
 
         <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
+  <a href="#home" aria-label="Go to Home section">Home</a>
+  <a href="#about" aria-label="Go to About section">About</a>
+  <a href="#skills" aria-label="Go to Skills section">Skills</a>
+  <a href="#projects" aria-label="Go to Projects section">Projects</a>
+  <a href="#contact" aria-label="Go to Contact section">Contact</a>
+</div>
       </nav>
 
       {/* Home Section */}
