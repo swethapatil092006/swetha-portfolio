@@ -388,8 +388,15 @@ function App() {
           © 2026 Swetha Patil. All rights reserved.
         </p>
       </footer>
+           <button
+        className="back-to-top"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        ↑
+      </button>
 
     </div>
+
   );
 }
 
